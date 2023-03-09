@@ -1,0 +1,172 @@
+body{
+    font: Arial,Helvetica,sans-serif;
+}
+#container{
+    width:1050px;
+    /* border:1px solid black; */
+    /* height: 100px; */
+    margin:0 auto;
+
+}
+#searchbox{
+    float:right;
+    background:linear-gradient(rgb(0, 148, 148),green);
+    background:-webkit-linear-gradient(rgb(0, 148, 148),green);
+    background:-moz-linear-gradient()(rgb(0, 148, 148),green);
+    background:-o-linear-gradient()(rgb(0, 148, 148),green);
+    width: 400px;
+    height: 50px;
+    padding:20px 20px 0 20px;
+    margin-top: 20px;
+}
+.text{
+    float: left;
+    width: 200px;
+    font-size: 15px;
+    padding: 5px;
+    color: orange;
+    background: white url(images/search.png) right center no-repeat;
+    border: 1px solid rgb(255, 4, 4);
+}
+.search{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background:purple;
+    font-size: 15px;
+}
+.clear{
+    clear: both;
+}
+
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+#brand{
+    float: left;
+}
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color:blueviolet;
+    text-decoration: none;
+}
+#menu{
+    height:70px;
+    background:linear-gradient(rgb(233, 233, 156),rgb(223, 223, 6));
+    background:-webkit-linear-gradient(rgb(233, 233, 156),rgb(223, 223, 6));
+    background:-moz-linear-gradient()(rgb(233, 233, 156),rgb(223, 223, 6));
+    background:-o-linear-gradient(rgb(233, 233, 156),rgb(223, 223, 6));
+    padding: 7px 0;
+}
+
+ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right:1px solid rgb(120, 3, 120);
+
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li a{
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: rgb(120, 3, 120);
+    line-height: 30px;
+    -webkit-transition: font-size 0.5s ease;
+    -ms-transition:font-size 0.5s ease;
+    -o-transition:font-size 0.5s ease;
+
+
+
+}
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(195, 22, 22);
+}
+#introduction{
+    background: linear-gradient(rgb(177, 255, 177),rgb(105, 227, 105));
+     padding:20px;
+     margin: 16px 0; 
+}
+#introduction h3{
+    font-size: 50px;
+    color: green;
+    font-weight: normal;
+
+}
+#introduction p{
+    font-size: 25px;
+    text-align: justify;
+    font-weight: normal;
+    color:rgb(24, 39, 1)
+}
+.sidebar{
+    height:500px;
+    width:450px;
+    border: 1px solid rgb(46, 76, 1);
+    border-radius: 20px;
+    padding: 10px 30px;
+
+}
+.sidebar h3{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(238, 10, 238);
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+     transition: font-size 0.5s ease;
+     -webkit-transition: font-size 0.5s ease;
+    -ms-transition:font-size 0.5s ease;
+    -o-transition:font-size 0.5s ease; 
+}
+#leftside ul{
+    padding-top: 5px;
+}
+#leftside ul li{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    list-style-image:url(images/arrow.png);
+}
+#rightside ul li{
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding: 10px;
+    list-style-image:url(images/tick.jpg);
+}
+.sidebar ul li a:hover,.slidebar ul li a.active{
+    text-decoration: none;
+    color: purple;
+    font-size: 25px;
+    font-weight: bold;
+
+
+}
+#leftside{
+    float: left;
+}
+#rightside{
+    float: right;
+}
+.footer{
+    height: 60px;
+    background: linear-gradient(rgb(246, 246, 150),rgb(234, 234, 7));
+    background: -webkit-linear-gradient()(rgb(246, 246, 150),rgb(234, 234, 7));
+    background: -moz-linear-gradient()(rgb(246, 246, 150),rgb(234, 234, 7));
+    background: -o-linear-gradient()(rgb(246, 246, 150),rgb(234, 234, 7));
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+
